@@ -12,7 +12,6 @@ cv2.createTrackbar("Threshold value", "image", 12, 255, nothing)
 
 
 def thresh ():
-
   while True:
     value=cv2.getTrackbarPos("Threshold value","image")
     img=cv2.imread('./venv/imgs/2.jpg',cv2.IMREAD_GRAYSCALE)
