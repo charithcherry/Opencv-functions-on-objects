@@ -13,14 +13,11 @@ from affinetransformation import atransform
 from adaptivethesholding import adap
 from smoothening import smoothen
 from morphologicaltransformation import morp
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from edgedetection import det,livdet
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
     #masking()
     #thresh()
     #histo()
@@ -28,5 +25,8 @@ if __name__ == '__main__':
     #atransform()
     #adap()
     #smoothen()
-    morp()
+    #morp()
+    #det()
+    livdet()
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
