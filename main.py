@@ -12,6 +12,7 @@ from perspectivetransformation import transform
 from affinetransformation import atransform
 from adaptivethesholding import adap
 from smoothening import smoothen
+from morphologicaltransformation import morp
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -26,5 +27,6 @@ if __name__ == '__main__':
     #transform()
     #atransform()
     #adap()
-    smoothen()
+    #smoothen()
+    morp()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
