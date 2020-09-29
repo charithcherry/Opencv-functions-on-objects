@@ -9,6 +9,9 @@ from object_masking import masking
 from thresholding import thresh
 from histogram import histo
 from perspectivetransformation import transform
+from affinetransformation import atransform
+
+
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -20,5 +23,6 @@ if __name__ == '__main__':
     #masking()
     #thresh()
     #histo()
-    transform()
+    #transform()
+    atransform()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
