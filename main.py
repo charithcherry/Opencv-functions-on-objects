@@ -15,7 +15,7 @@ from smoothening import smoothen
 from morphologicaltransformation import morp
 from edgedetection import det,livdet
 from contours import livcon
-
+from templatematching import  temp,templive
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -29,5 +29,11 @@ if __name__ == '__main__':
     #morp()
     #det()
     #livdet()
-    livcon()
+    #livcon()
+    #temp()
+    templive()
+
+
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
