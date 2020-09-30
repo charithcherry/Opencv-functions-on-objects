@@ -14,6 +14,7 @@ from adaptivethesholding import adap
 from smoothening import smoothen
 from morphologicaltransformation import morp
 from edgedetection import det,livdet
+from contours import livcon
 
 
 # Press the green button in the gutter to run the script.
@@ -27,6 +28,6 @@ if __name__ == '__main__':
     #smoothen()
     #morp()
     #det()
-    livdet()
-
+    #livdet()
+    livcon()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
