@@ -17,6 +17,9 @@ from edgedetection import det,livdet
 from contours import livcon
 from templatematching import  temp,templive
 from linedetection import linedet,linevdet
+from cornerdetection import  cordet,cordetliv
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     #masking()
@@ -33,8 +36,8 @@ if __name__ == '__main__':
     #temp()
     #templive()
     #linedet()
-    linevdet()
-
-
+    #linevdet()
+    #cordet()
+    cordetliv()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
