@@ -24,9 +24,13 @@ def masking():
        uv=cv2.getTrackbarPos('U-V','tracker')
        lower_blue=np.array([lh,ls,lv])
        upper_blue=np.array([uh,us,uv])
-
+       kernel = np.ones((3, 3), np.uint8)
        mask=cv2.inRange(hsv,lower_blue,upper_blue)
        result=cv2.bitwise_and(frame,frame,mask=mask)
+       #ret,f=cv2.threshold(result,0,255,cv2.THRESH_BINARY)
+       #f=cv2.blur(f,(2,2))
+       #f = cv2.dilate(mask,kernel,iterations = 4)
+
        cv2.imshow("original",result)
        cv2.imshow("mask",mask)
        key=cv2.waitKey(1)

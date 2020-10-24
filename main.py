@@ -22,7 +22,7 @@ from cornerdetection import  cordet,cordetliv
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    #masking()
+    masking()
     #thresh()
     #histo()
     #transform()
@@ -38,6 +38,6 @@ if __name__ == '__main__':
     #linedet()
     #linevdet()
     #cordet()
-    cordetliv()
+    #cordetliv()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
