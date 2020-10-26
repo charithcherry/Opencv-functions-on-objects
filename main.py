@@ -18,11 +18,11 @@ from contours import livcon
 from templatematching import  temp,templive
 from linedetection import linedet,linevdet
 from cornerdetection import  cordet,cordetliv
-
+from pyramid import pyr
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    masking()
+    #masking()
     #thresh()
     #histo()
     #transform()
@@ -39,5 +39,5 @@ if __name__ == '__main__':
     #linevdet()
     #cordet()
     #cordetliv()
-
+    pyr()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
