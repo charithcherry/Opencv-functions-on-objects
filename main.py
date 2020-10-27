@@ -19,6 +19,7 @@ from templatematching import  temp,templive
 from linedetection import linedet,linevdet
 from cornerdetection import  cordet,cordetliv
 from pyramid import pyr,blend,recog
+from featuredetection import feature
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -40,6 +41,7 @@ if __name__ == '__main__':
     #cordet()
     #cordetliv()
     #blend()
-    recog()
+    #recog()
     #pyr()
+    feature()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

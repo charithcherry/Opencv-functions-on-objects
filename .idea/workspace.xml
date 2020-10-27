@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af21fc5-6193-4fc2-b648-7103e51de967" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/xml/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featuredetection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/LICENSE-3RD-PARTY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_contrib_python-4.4.0.44.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/imgs/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/imgs/19.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyramid.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyramid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/cv2.cp38-win32.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/cv2.cp38-win32.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/version.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -81,21 +90,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603700263928" />
-    <state width="1514" height="210" key="GridCell.Tab.0.bottom" timestamp="1603728528931">
+    <state width="1514" height="210" key="GridCell.Tab.0.bottom" timestamp="1603822725240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1514" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603728528931" />
-    <state width="1514" height="210" key="GridCell.Tab.0.center" timestamp="1603728528931">
+    <state width="1514" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603822725240" />
+    <state width="1514" height="210" key="GridCell.Tab.0.center" timestamp="1603822725240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1514" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603728528931" />
-    <state width="1514" height="210" key="GridCell.Tab.0.left" timestamp="1603728528931">
+    <state width="1514" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603822725240" />
+    <state width="1514" height="210" key="GridCell.Tab.0.left" timestamp="1603822725240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1514" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603728528931" />
-    <state width="1514" height="210" key="GridCell.Tab.0.right" timestamp="1603728528931">
+    <state width="1514" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603822725240" />
+    <state width="1514" height="210" key="GridCell.Tab.0.right" timestamp="1603822725240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1514" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603728528931" />
+    <state width="1514" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603822725240" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1603821495279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603821495279" />
   </component>
 </project>
