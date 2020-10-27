@@ -20,6 +20,7 @@ from linedetection import linedet,linevdet
 from cornerdetection import  cordet,cordetliv
 from pyramid import pyr,blend,recog
 from featuredetection import feature
+from mouseevent import mou,rect
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -43,5 +44,7 @@ if __name__ == '__main__':
     #blend()
     #recog()
     #pyr()
-    feature()
+    #feature()
+    #mou()
+    rect()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
