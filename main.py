@@ -21,6 +21,7 @@ from cornerdetection import  cordet,cordetliv
 from pyramid import pyr,blend,recog
 from featuredetection import feature
 from mouseevent import mou,rect
+from histo_backpro import histogram_back_projection
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -46,5 +47,6 @@ if __name__ == '__main__':
     #pyr()
     #feature()
     #mou()
-    rect()
+    #rect()
+    histogram_back_projection()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
