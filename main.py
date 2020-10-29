@@ -22,6 +22,7 @@ from pyramid import pyr,blend,recog
 from featuredetection import feature
 from mouseevent import mou,rect
 from histo_backpro import histogram_back_projection
+from meanshift import  meanshift_liv
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -48,5 +49,6 @@ if __name__ == '__main__':
     #feature()
     #mou()
     #rect()
-    histogram_back_projection()
+    #histogram_back_projection()
+    meanshift_liv()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
