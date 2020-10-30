@@ -23,6 +23,7 @@ from featuredetection import feature
 from mouseevent import mou,rect
 from histo_backpro import histogram_back_projection
 from meanshift import  meanshift_liv
+from camshift import cam
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -50,5 +51,6 @@ if __name__ == '__main__':
     #mou()
     #rect()
     #histogram_back_projection()
-    meanshift_liv()
+    #meanshift_liv()
+    cam()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
