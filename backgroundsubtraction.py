@@ -38,3 +38,33 @@ def subtractor():
             break
     cap.release()
     cv2.destroyAllWindows()
+
+
+def application():
+    captured_video = cv2.VideoCapture("./venv/imgs/highway.mp4")
+
+    subtract = cv2.createBackgroundSubtractorMOG2(history=20, varThreshold=30, detectShadows=False)
+
+    while True:
+
+        _, image1 = captured_video.read()
+
+        # a, threshold_image = cv2.threshold(gray, 50, 255, cv2.THRESH_BINARY)
+        threshold_image = subtract.apply(image1)
+        contours, h = cv2.findContours(threshold_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+        # cv2.drawContours(image1, contours, -1, (0, 0, 255), 3)
+
+        for each_contour in contours:
+            x, y, w, h = cv2.boundingRect(each_contour)
+            if cv2.contourArea(each_contour) < 500:
+                continue
+            else:
+                cv2.rectangle(image1, (x, y), (x + w, y + h), (0, 255, 0), 2)
+
+        cv2.imshow('Generated Video', image1)
+        key = cv2.waitKey(1)
+        if key == 27:
+            break
+
+    captured_video.release()
+    cv2.destroyAllWindows()
