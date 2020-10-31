@@ -25,6 +25,7 @@ from histo_backpro import histogram_back_projection
 from meanshift import  meanshift_liv
 from camshift import cam
 from cartooneffect import  cartoon
+from backgroundsubtraction import sub,subtractor
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -54,5 +55,7 @@ if __name__ == '__main__':
     #histogram_back_projection()
     #meanshift_liv()
     #cam()
-    cartoon()
+    #cartoon()
+    #sub()
+    subtractor()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
