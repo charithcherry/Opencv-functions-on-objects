@@ -26,6 +26,7 @@ from meanshift import  meanshift_liv
 from camshift import cam
 from cartooneffect import  cartoon
 from backgroundsubtraction import sub,subtractor,application
+from facelandmarks import marks
 
 
 # Press the green button in the gutter to run the script.
@@ -59,5 +60,6 @@ if __name__ == '__main__':
     #cartoon()
     #sub()
     #subtractor()
-    application()
+    #application()
+    marks()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
