@@ -27,7 +27,7 @@ from camshift import cam
 from cartooneffect import  cartoon
 from backgroundsubtraction import sub,subtractor,application
 from facelandmarks import marks
-from dognosefilter import dognose
+from pignosefilter import nose
 
 
 # Press the green button in the gutter to run the script.
@@ -63,5 +63,5 @@ if __name__ == '__main__':
     #subtractor()
     #application()
     #marks()
-    dognose()
+    nose()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
